@@ -35,6 +35,13 @@ const schema = new mongoose.Schema({
     type: String,
     required: true
   },
+  level: {
+    type: String,
+  },
+  paymentStatus: {
+    type: String,
+    default: 'N'
+  },
   createdAt: String,
 });
 

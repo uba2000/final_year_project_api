@@ -9,6 +9,6 @@ users.use(cors());
 
 users.post('/register', userController.registerUser);
 
-users.post('/login', userController.registerUser);
+users.post('/login', userController.login);
 
 module.exports = users;
